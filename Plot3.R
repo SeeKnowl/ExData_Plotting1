@@ -3,7 +3,7 @@ library("sqldf")
 
 ## Produce the plot 3 as shown in assignment 1
 ## Read the data from the power consumption file for the 2 specific dates
-## Plot 3 line plots for the Sub_meter readings 1 thru 3 against the reformatted combined Data & Time fields.
+## Generate 3 line plots for the Sub_meter readings 1 thru 3 against the reformatted combined Data & Time fields.
 ## Add the legends as shown in the plot 3
 
 ## Step 0 - download the files
