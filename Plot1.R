@@ -3,7 +3,7 @@ library("sqldf")
 
 ## Produce the plot in a PNG file for assignment
 ## From the power consumption data file extracting the data for Feb 1st and Feb 2nd of the year 2007.
-## Plo1 is a histogram of Global Active Power reading on those 2 days
+## Plot1 is a histogram of Global Active Power reading on those 2 days
 
 ## Step 0 - download the files
 ## Set up the URL, Zip file directory, zip file name
@@ -47,7 +47,7 @@ library("sqldf")
 ## Save the file to a png format of height and width of 480
     message("Plotting....")
     par(mfrow = c(1,1))
-    hist(PowerConsumption1$Global_active_power, col = "red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)")
+    hist(PowerConsumption$Global_active_power, col = "red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)")
     png(filename = "Plot1.png", width = 480, height = 480)
-    hist(PowerConsumption1$Global_active_power, col = "red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)")
+    hist(PowerConsumption$Global_active_power, col = "red", main = "Global Active Power", xlab = "Global Active Power (kilowatts)")
     dev.off()
