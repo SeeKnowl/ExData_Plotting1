@@ -1,6 +1,10 @@
 library(RCurl)
 library("sqldf")
 
+## Assignment 1 - code to produce the plot 2 - plot of Global_active_power readings from the 
+## household power consumption data for Feb 1st and 2nd of the year 2007
+##
+
 ## Step 0 - download the files
 ## Set up the URL, Zip file directory, zip file name
 ## Check if the zip file exists before we download
